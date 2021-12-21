@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 800px;
+    height: 100vh;
+    background-color: rgb(156, 119, 51);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#firstnumber,
+#secondnumber {
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#result {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(40, 25, 173);
+}
+
+input,
+select,
+button {
+    line-height: 24px;
+    margin: 10px 0 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(17, 136, 23);
+}
+
+button:hover {
+    background-color: rgb(226, 115, 10);
+    transition: 0.5s;
+}

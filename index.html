@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form>
+                <div><label for="first-number">Введите первое число: </label></div>
+                <input type="number" id="firstnumber">
+                <div><label for="action">Выберите действие:</label></div>
+                <select id="action" onchange="if (this.selectedIndex)">
+                    <option class="act" value="-1"></option>
+                    <option class="act" value="1">+</option>
+                    <option class="act" value="2">-</option>
+                    <option class="act" value="3">*</option>
+                    <option class="act" value="4">/</option>
+                </select>
+                <div><label for="second-number">Введите второе число: </label></div>
+                <input type="number" id="secondnumber">
+                <div><label for="submit">Нажмите для получения результата</div>
+                <button type="button" class="button">Submit</button>
+                <div><label for="result">Результат: </label></div>
+                <input type="number" id="result">
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
